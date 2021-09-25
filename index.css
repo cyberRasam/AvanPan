@@ -185,7 +185,7 @@ footer{
 }
 
 
-@media (max-width: 312px) {
+@media (max-width: 386px) {
     #header{ 
         flex-wrap: wrap;
     }
