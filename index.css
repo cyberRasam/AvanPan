@@ -198,6 +198,18 @@ footer{
 }
 
 
+@media (min-width: 312px) {
+    #header{ 
+        flex-wrap: wrap;
+    }
+    #header nav{
+        margin-left: 90px;
+    }
+    #footer-cc{
+        margin-left: 60px;
+    }
+}
+
 
 @media (min-width: 576px) {
     .carousel-caption{
