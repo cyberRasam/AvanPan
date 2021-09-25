@@ -185,21 +185,8 @@ footer{
 }
 
 
-@media (min-width: 312px) {
+@media (max-width: 312px) {
     #header{ 
-        flex-wrap: wrap;
-    }
-    #header nav{
-        margin-left: 90px;
-    }
-    #footer-cc{
-        margin-left: 60px;
-    }
-}
-
-
-@media (max-width: 400px) {
-	#header{ 
         flex-wrap: wrap;
     }
     #header nav{
