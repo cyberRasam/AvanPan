@@ -12,7 +12,7 @@ body::before {
         rgba(108, 170, 165, 0.719),
         rgba(127, 112, 139, 0.657)
       ),
-      url("images/logo.jpg");
+      url("images/logo.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
@@ -183,6 +183,21 @@ footer{
     padding-top: 410px;
     z-index: +1;
 }
+
+
+@media (max-width: 312px) {
+    #header{ 
+        flex-wrap: wrap;
+    }
+    #header nav{
+        margin-left: 90px;
+    }
+    #footer-cc{
+        margin-left: 60px;
+    }
+}
+
+
 
 @media (min-width: 576px) {
     .carousel-caption{
