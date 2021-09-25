@@ -12,7 +12,7 @@ body::before {
         rgba(108, 170, 165, 0.719),
         rgba(127, 112, 139, 0.657)
       ),
-      url("images/logo.JPG");
+      url("images/logo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
